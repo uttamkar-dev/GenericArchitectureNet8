@@ -9,9 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimalApi", "MinimalApi\Mi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess.Infrastructure", "DataAccess.Infrastructure\DataAccess.Infrastructure.csproj", "{7CFB72CC-B86B-460D-B16A-1A87172A5DEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess.Models", "DataAccess.Models\DataAccess.Models.csproj", "{2F76AA2E-B442-4653-B460-2437515E22CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess.Models", "DataAccess.Models\DataAccess.Models.csproj", "{2F76AA2E-B442-4653-B460-2437515E22CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess.Service", "DataAccess.Service\DataAccess.Service.csproj", "{541C28A4-AECF-47DB-9183-CA45E98C1AFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess.Service", "DataAccess.Service\DataAccess.Service.csproj", "{541C28A4-AECF-47DB-9183-CA45E98C1AFC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessageBrokerClient", "MessageBrokerClient\MessageBrokerClient.csproj", "{68C154DF-5F5D-4FA2-BF70-9479E30DE79B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess.API", "DataAccess.API\DataAccess.API.csproj", "{B750ACF0-94A3-4010-989E-29F1CCBABB90}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{541C28A4-AECF-47DB-9183-CA45E98C1AFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{541C28A4-AECF-47DB-9183-CA45E98C1AFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{541C28A4-AECF-47DB-9183-CA45E98C1AFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68C154DF-5F5D-4FA2-BF70-9479E30DE79B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68C154DF-5F5D-4FA2-BF70-9479E30DE79B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68C154DF-5F5D-4FA2-BF70-9479E30DE79B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68C154DF-5F5D-4FA2-BF70-9479E30DE79B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B750ACF0-94A3-4010-989E-29F1CCBABB90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B750ACF0-94A3-4010-989E-29F1CCBABB90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B750ACF0-94A3-4010-989E-29F1CCBABB90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B750ACF0-94A3-4010-989E-29F1CCBABB90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
